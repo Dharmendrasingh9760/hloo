@@ -3,7 +3,7 @@ pipeline {
         stages {
                 stage ("pull code from github"){
                         steps{
-               git branch: 'main', url: 'https://github.com/Dharmendrasingh9760/node.js.git'
+               git branch: 'main', url: 'https://github.com/Dharmendrasingh9760/hloo.git'
                         }
                 }
                 stage('Remove Old Containers and Images') {
